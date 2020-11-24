@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        let RandomArr = new Array(2,3,5,7,12,15);
+        let MaxArr = RandomArr[0];
+        let avera = 0;
+        for (i = 1; i < RandomArr.length; i++){
+            avera += (RandomArr[i])/RandomArr.length;
+            if (RandomArr[i] > MaxArr){
+                MaxArr = RandomArr[i];
+            }
+        }
+        console.log(MaxArr + " " + " gia tri trung binh" + " " + avera);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
